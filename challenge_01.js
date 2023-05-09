@@ -13,3 +13,9 @@ let zahl, zahl2;
 zahl = prompt("Bitte geben sie eine Zahl ein:");
 zahl2 = prompt("Bitte geben sie eine zweite Zahl ein");
 
+zahl1 = parseInt(zahl1);
+zahl2 = parseInt(zahl2);
+
+let summe;
+summe = zahl1 + zahl2;
+console.log("Die Summe der Zahlen ist: " + summe);
